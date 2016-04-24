@@ -1,0 +1,81 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#e8fcfd;
+	font:"微软雅黑";
+	font-size:20px;
+	font-weight:bold;
+	color:#ffffff;
+}
+.top{
+	top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	width:826px;
+	height:142px;
+	position:relative;
+	}
+.middle{
+	width:100%;
+	height:280px;
+	top:20px;
+	background-color:#0c82bf;
+	position:relative;
+	}
+.left{
+	width:356px;
+	height:224px;
+	background-image:url(../images/picture.png);
+	background-repeat:no-repeat;
+	position:relative;
+	left:18%;
+	float:left;
+	}
+.right{
+	width:29%;
+	position:relative;
+	float:left;
+	top:26px;
+	left:26%;
+	}
+.table-font{
+	width:100px;
+	height:40px;
+	font:"微软雅黑";
+	font-size:20px;
+	font-weight:bold;
+	color:#ffffff;
+	text-align:right;
+	}
+input[type="text"]{
+	width:200px;
+	height:30px;
+	}
+input[type="password"]{
+	width:200px;
+	height:30px;
+	}
+input[type="text1"]{
+	width:90px;
+	height:30px;
+	margin-right:20px;
+	float:left;
+	
+	}
+input[type="text2"]{
+	width:90px;
+	height:30px;
+	float:left;
+	}
+img[id="denglu"]{
+	width:89px;
+	height:37px;
+	margin-right:20px;
+	float:left;
+	}
+img[id="chongzhi"]{
+	width:89px;
+	height:37px;
+	float:left;
+	}

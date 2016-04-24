@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="icoder-house Maven Webapp"
+  id="myeclipse.1461418413343"
+  context-root="/house"
+  j2ee-spec="1.7"
+  archive="icoder-house Maven Webapp.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,133 @@
+﻿/* css reset */
+body, html {
+    margin: 0;
+    padding: 0;
+	background-color: #e8fcfd;
+    font-family: "Microsoft YaHei", "微软雅黑", Helvetica, "黑体", Arial, Tahoma;
+}
+html {
+    min-height: 500px;
+    min-width: 1000px;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	width: 826px;
+	height: 142px;
+    background: url(../images/top.png) no-repeat;
+}
+.content {
+    position: relative;
+    width: 100%;
+}
+.loginBg {
+    background-color: #0c82bf;
+    height: 320px;
+}
+.bgimg {
+    width: 100% !important;
+    height: auto;
+}
+.login-block {
+    width: 250px;
+    height: 300px;
+    padding: 20px 23px 40px;
+	top:-20px;
+    left: 50%;
+    margin-left: 130px;
+    text-align: left;
+    position: absolute;
+    z-index: 2;
+	background: #eceff1;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15), inset 0 -1px 0 0 #fcfcfc;
+    border-radius: 6px;
+    opacity: 1;
+}
+.image-block {
+    width: 350px;
+    height: 230px;
+	top:0px;
+	position: absolute;
+	left:15%;
+	 z-index: 2;
+	background:url(../images/picture.png) no-repeat;
+}
+.input-block {
+    position: relative;
+    margin-bottom: 10px;
+}
+.form-input {
+    font-size: 15px;
+    padding: 10px 10px 10px 70px;
+    width: 165px;
+    border-radius: 4px;
+    border: solid 1px rgb(179, 185, 179);
+    vertical-align: middle;
+    /*height: 40px;*/
+    outline: 0;
+}
+
+.form-input:focus {
+    border-color: green;
+}
+.forget-pwd:hover {
+    color: #10558d;
+}
+.login-icon {
+    display: block;
+    position: absolute;
+	font-size: 15px;
+    height: 16px;
+    width: 100px;
+    top: 11px;
+    left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.psd-icon {
+    background-position: -22px 2px;
+}
+.change-pat {
+    font-size: 15px;
+    cursor: pointer;
+}
+.change-pat:hover {
+    color: rgb(17, 135, 243);
+}
+.btn {
+    width: 110px;
+    height: 38px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 38px;
+    outline: 0;
+    border-radius: 4px;
+}
+.login-btn {
+    background-color: #33a5fe;
+}
+.login-btn:hover {
+    background-color: #1E9AFA;
+}
+.reg-btn {
+    background-color: #fff;
+    margin-left: 28px;
+    border: solid 1px #929090;
+}
+
+.reg-btn:hover {
+    background-color: #EEEBEB;
+}
+.gui-tips-container{position:fixed;top:0;z-index:9999;display:block;width:auto;text-align:left;font-family:'Microsoft Yahei',Tahoma,Arial,Helvetica,STHeiti}.gui-tips{padding:10px 25px;border-radius:2px;box-shadow:0 2px 2px rgba(0,0,0,.2);color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.2)}.gui-tips>span{display:inline-block;width:auto;vertical-align:4px;font-size:18px;line-height:1;margin-left:5px}.gui-tips.error{background-color:#d9534f}.gui-tips.success{background-color:#5cb85c}.gui-tips.warning{background-color:#f0ad4e}.gui-tips.success .gui-tips-icons{background-position-y:0}.gui-tips.warning .gui-tips-icons{background-position-y:-46px}.gui-tips.error .gui-tips-icons{background-position-y:-23px}.gui-tips-icons{background:url(icons.png) no-repeat;width:22px;height:22px;display:inline-block;background-position-x:-2px}
