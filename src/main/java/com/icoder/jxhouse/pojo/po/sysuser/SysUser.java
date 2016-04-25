@@ -1,4 +1,4 @@
-package com.icoder.jxhouse.pojo.po;
+package com.icoder.jxhouse.pojo.po.sysuser;
 
 import com.icoder.jxhouse.pojo.po.base.Base;
 import org.hibernate.annotations.GenericGenerator;

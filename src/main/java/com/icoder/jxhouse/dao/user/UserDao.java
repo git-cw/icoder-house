@@ -1,7 +1,7 @@
 package com.icoder.jxhouse.dao.user;
 
 import com.icoder.jxhouse.dao.base.BaseDao;
-import com.icoder.jxhouse.pojo.po.SysUser;
+import com.icoder.jxhouse.pojo.po.sysuser.SysUser;
 import org.springframework.stereotype.Repository;
 
 /**
